@@ -24,7 +24,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/hello_sign_in_your_account"
-            android:textColor="@android:color/darker_gray"
+            android:textColor="@android:color/holo_red_dark"
             android:textSize="20sp"
             android:textStyle="bold"/>
 
@@ -38,7 +38,7 @@
                 android:id="@+id/et_email_login"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@drawable/bg_edit_text"
+                android:background="@drawable/bg_btn_primary"
                 android:hint="@string/email"
                 android:inputType="textEmailAddress"
                 android:paddingStart="16dp"
@@ -57,7 +57,7 @@
                 android:id="@+id/et_password_login"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@drawable/bg_edit_text"
+                android:background="@drawable/bg_btn_primary"
                 android:hint="@string/password"
                 android:paddingStart="16dp"
                 android:paddingEnd="16dp"
@@ -65,14 +65,14 @@
 
         </com.google.android.material.textfield.TextInputLayout>
 
-        <Button
-            android:id="@+id/btn_login"
-            android:layout_width="match_parent"
-            android:layout_height="33dp"
-            android:layout_marginTop="24dp"
-            android:background="@drawable/bg_btn_primary"
-            android:text="@string/login"
-            android:textColor="@android:color/white" />
+            <Button
+                android:id="@+id/btn_login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:background=""
+                android:text="@string/login"
+                android:textColor="@android:color/holo_red_dark"/>
 
     </LinearLayout>
 
